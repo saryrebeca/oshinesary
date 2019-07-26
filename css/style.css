@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+	background-color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .nav-link{
+	color:#000;
+}
+
+.header-area.sticky .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.section{
+	padding: 5% 0;
+}
+#home{
+	background-image: url("../img/Hero-BG.jpg");
+	background-size: cover;
+	background-position: center top;
+	color: #fff;
+	position: relative;
+	background-repeat: no-repeat;
+}
+#home::before{
+	content: "";
+	background-color:rgba(82,125,237,0.70);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+}
+
+#home h1{
+	font-size: 65px;
+	color: #fff;
+	margin-top: 20%;
+	margin-bottom: 5%;
+	font-weight: bolder;
+}
+
+#home p{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 5%;
+}
+
+.btn-nuevo{
+	text-transform: uppercase;
+	padding: 2% 3%;
+	color: #528EFF;
+	border-radius: 0px;
+}
+
+#about{
+	background-color: #fff;
+}
+
+.title{
+	font-size: 50px;
+	color: #000;
+	margin-top: 40%;
+	margin-bottom: 5%;
+	font-weight: bolder;
+}
+
+.title-uno{
+	font-size: 50px;
+	color: #FFF;
+	margin-top: 12%;
+	margin-bottom: 5%;
+	font-weight: bolder;
+}
+
+.title-dos{
+	font-size: 50px;
+	color: #000;
+	margin-top: 5%;
+	margin-bottom: 50px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.title-tres{
+	font-size: 50px;
+	color: #000;
+	margin-top: 5%;
+	margin-bottom: 50px;
+	font-weight: bolder;
+	text-align: left;
+}
+
+.subtitle{
+	font-size: 18px;
+	color:#787878;
+	margin-bottom: 5%;
+}
+
+.subtitle-dos{
+	font-size: 18px;
+	color:#FFF;
+	margin-bottom: 5%;
+}
+
+.btn-morado{
+	background-color: #528EFF;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 3% 4%;
+	border-radius: 0px;
+}
+
+#fondo-morado{
+	background-color: #528EFF;
+	padding: 5% 0;
+	
+}
+
+#about .row:nth-child(2){
+	margin-top: 50px;
+}
+
+#fondo-morado .row:nth-child(2){
+	margin-top: 50px;
+}
+
+#features{
+	text-align: center;
+}
+
+.feature{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15% 10%;
+	font-size: 16px;
+	color: #878787;
+}
+
+.feature h3{
+	color: #303132;
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.feature i{
+	color: #272DED;
+	font-size: 26px;
+}
+
+#features .title{
+	margin-bottom: 50px;
+}
+
+#features .row:nth-child(2){
+	margin-bottom: 30px;
+}
+
+#team{
+	text-align: center;
+}
+
+.bg-morado{
+	background: linear-gradient(270deg,#528eff,#272DED);
+	padding: 8% 0;
+	margin-top: 10%;
+}
+
+.team{
+	padding: 15% 10%;
+	background-color: #fff;
+	box-shadow: 0px 4px 50px 0px #000;
+	border-radius: 12px;
+}
+
+.bg-morado .row{
+	margin-top: -20%;
+}
